@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "7d9620fb-c14d-4320-bf6a-a3825ebf87f1",
+		"name": "Meza",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36409346"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Juan Perez\",\r\n  \"email\": \"jusan@example.com\",\r\n  \"contraseña\": \"password1243\",\r\n  \"carrera\": \"Ingeniería de Sistemas\",\r\n  \"año_de_ingreso\": 2022\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
